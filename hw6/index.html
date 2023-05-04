@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block,
+        .image-block {
+            display: none;
+
+        }
+
+        .helper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .palet,
+        .images {
+            width: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .color,
+        .image
+        {
+            background-size: cover;
+            background-position: center;
+            width: 100px;
+            height: 50px;
+            cursor: pointer;
+            border: 1px solid white;
+        }
+
+        p {
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <p>colors</p>
+    </div>
+    <div class="block">
+
+        <div class="helper">
+            <div class="palet">
+                <div class="color" style="background-color: rgb(255, 0, 0)"></div>
+                <div class="color" style="background-color: rgb(0, 148, 0)"></div>
+                <div class="color" style="background-color: rgb(101, 101, 223)"></div>
+                <div class="color" style="background-color: rgb(168, 1, 173)"></div>
+                <div class="color" style="background-color: rgb(219, 216, 31)"></div>
+                <div class="color" style="background-color: rgb(129, 129, 129)"></div>
+                <div class="color" style="background-color: rgb(21, 21, 136)"></div>
+                <div class="color" style="background-color: rgb(255, 0, 149)"></div>
+                <div class="color" style="background-color: rgb(28, 51, 21)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="txt">
+        <p>images</p>
+    </div>
+
+    <div class="image-block">
+        <div class="helper">
+            <div class="images">
+                <div class="image" style="background-image: url(./download.jpg);"></div>
+                <div class="image" style="background-image: url(./ananas-gold-800x800-8c8.jpg);"></div>
+                <div class="image" style="background-image: url(./Cat03.jpg);"></div>
+                <div class="image" style="background-image: url(./depositphotos_106948346-stock-photo-ripe-red-apple-with-green.jpg);"></div>
+                <div class="image" style="background-image: url(./depositphotos_3941214-stock-photo-slices-of-cucumber.jpg);"></div>
+                <div class="image" style="background-image: url(./morkova-moloda.jpg);"></div>
+                <div class="image" style="background-image: url(./gettyimages-1462194331-1024x1024.jpg);"></div>
+                <div class="image" style="background-image: url(./11-cikavih-faktiv-pro-gori.jpg);"></div>
+                <div class="image" style="background-image: url(./gettyimages-1418813874-1024x1024.jpg);"></div>
+                <div class="image" style="background-image: url(./gettyimages-1456714743-1024x1024.jpg);"></div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
