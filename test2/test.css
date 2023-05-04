@@ -1,0 +1,157 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+ }
+
+ .block {
+     width: 700px;
+     height: 300px;
+     background-color: rgba(192, 192, 192, 0.616);
+     margin: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border: 1px solid rgba(0, 0, 0, 0.295);
+
+ }
+
+ p {
+     margin: 10px;
+ }
+
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ button {
+     width: 80px;
+     height: 40px;
+     border-radius: 7%;
+     border-style: none;
+     cursor: pointer;
+
+ }
+
+ .edit {
+     background-color: rgba(255, 255, 0, 0.938);
+ }
+
+ .block_second_smaller {
+     width: 500px;
+     height: 200px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     display: none;
+
+
+ }
+
+ input {
+     width: 480px;
+     height: 200px;
+
+
+     border-style: none;
+     outline: none;
+ }
+
+ .save {
+
+     background-color: lime;
+     color: white;
+     width: 70px;
+     height: 20px;
+     margin-right: 10px;
+ }
+
+ .block_second_smaller:focus-within {
+     border: 2px solid rgba(71, 71, 250, 0.548);
+ }
+
+ .style {
+     background-color: rgb(0, 135, 212);
+     color: white;
+ }
+
+ input {
+     background-color: rgba(192, 192, 192, 0);
+     margin-left: 250px;
+ }
+
+
+
+ .color_block {
+     display: none;
+     flex-direction: column;
+
+ }
+
+
+
+ .palet {
+     width: 250px;
+     display: none;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .color {
+     background-size: cover;
+     width: 65px;
+     height: 30px;
+     cursor: pointer;
+     border: 1px solid white;
+ }
+
+ .color_btn {
+     background-color: rgba(102, 88, 88, 0.507);
+     width: 140px;
+     border-radius: 5px;
+     margin-left: 10px;
+ }
+
+ .text_change {
+     width: 250px;
+     display: none;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .text_color_change {
+     background-size: cover;
+     width: 65px;
+     height: 30px;
+     cursor: pointer;
+     border: 1px solid white;
+ }
+
+ .radio {
+     width: 15px;
+     height: 15px;
+     margin: 0;
+     cursor: pointer;
+ }
+
+ .size {
+     margin: 10px;
+ }
+
+ .checkbox {
+     width: 30px;
+     height: 30px;
+     margin: 0;
+ }
+
+ .font{
+    display: flex;
+ }
